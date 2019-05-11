@@ -26,5 +26,8 @@
         <module>springboot-mine-starter</module>
         <module>springboot-use-starter</module>
         <module>springboot-myjdbc-starter</module>
+        <module>springboot-kafka-starter</module>
+        <module>springboot-annotations</module>
+        <module>consul-pojo-config</module>
     </modules>
 </project>
