@@ -1,0 +1,38 @@
+mine:
+  host: 127.0.0.1
+  msg: iammical
+server:
+  port: 8090
+debug: true
+
+#springboot 2.0 默认连接池就是Hikari了，所以引用parents后不用专门加依赖
+spring:
+  application:
+    name: springboot-mical-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mysql?useUnicode=true&characterEncoding=utf8&useSSL=false&rewriteBatchedStatements=true&zeroDateTimeBehavior=CONVERT_TO_NULL&useTimezone=true&nullCatalogMeansCurrent=${spring.datasource.hikari.data-source-properties.nullCatalogMeansCurrent}
+    username: root
+    password: 123456
+    hikari:
+      connection-timeout: 3000
+      idle-timeout: 90000
+      maximum-pool-size: 200
+      validation-timeout: 1000
+      max-lifetime: 600000
+      minimum-idle: 10
+      data-source-properties:
+        nullCatalogMeansCurrent: true
+
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        register: true
+        hostname: 127.0.0.1
+        serviceName: ${spring.application.name}
+        healthCheckPath: /actuator/health
+        healthCheckInterval: 15s
+        tags: urlprefix-/${spring.application.name}
+        instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
