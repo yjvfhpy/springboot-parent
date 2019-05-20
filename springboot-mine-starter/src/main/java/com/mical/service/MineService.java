@@ -1,7 +1,7 @@
-package com.webull.service;
+package com.mical.service;
 
 /**
- * @author liujian@webull.com
+ * @author liujian@mical.com
  * @date 2019-05-11 00:29
  */
 public class MineService {

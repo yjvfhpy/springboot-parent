@@ -6,7 +6,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.core.type.AnnotatedTypeMetadata;
 
 /**
- * @author liujian@webull.com
+ * @author liujian@mical.com
  * @date 2019-05-12 20:03
  */
 public class MacCondition implements Condition {

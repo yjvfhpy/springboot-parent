@@ -3,7 +3,7 @@ package com.consul.pojo;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author liujian@webull.com
+ * @author mical
  * @date 2019-05-11 14:36
  */
 @ConfigurationProperties(prefix = "xjdbc")

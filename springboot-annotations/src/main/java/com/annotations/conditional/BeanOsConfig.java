@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author liujian@webull.com
+ * @author liujian@mical.com
  * @date 2019-05-12 20:06
  */
 

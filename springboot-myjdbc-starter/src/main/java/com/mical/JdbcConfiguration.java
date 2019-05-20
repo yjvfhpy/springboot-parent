@@ -1,4 +1,4 @@
-package com.webull;
+package com.mical;
 
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.BeansException;
@@ -24,7 +24,7 @@ import java.util.Map;
 @ConditionalOnClass({DataSource.class, JdbcTemplate.class})
 @Import(JdbcTemplateAutoConfiguration.class)
 @Log4j2
-@ComponentScan(value ="com.webull")
+@ComponentScan(value ="com.mical")
 public class JdbcConfiguration implements ApplicationContextAware {
 
     ApplicationContext applicationContext;

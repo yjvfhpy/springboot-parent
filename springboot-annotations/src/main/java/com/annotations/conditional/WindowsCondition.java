@@ -8,7 +8,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.core.type.AnnotatedTypeMetadata;
 
 /**
- * @author liujian@webull.com
+ * @author liujian@mical.com
  * @date 2019-05-12 19:59
  */
 public class WindowsCondition implements Condition {

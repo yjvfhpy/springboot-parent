@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * @author liujian@webull.com
+ * @author liujian@mical.com
  * @date 2019-05-11 23:52
  */
 

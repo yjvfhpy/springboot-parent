@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.webull.config.MineAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.mical.config.MineAutoConfiguration

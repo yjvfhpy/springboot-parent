@@ -5,7 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import java.util.Map;
 
 /**
- * @author liujian@webull.com
+ * @author liujian@mical.com
  * @date 2019-05-12 20:08
  */
 public class ConditionalOsTest {

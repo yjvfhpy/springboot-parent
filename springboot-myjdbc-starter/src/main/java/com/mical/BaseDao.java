@@ -1,4 +1,4 @@
-package com.webull;
+package com.mical;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;

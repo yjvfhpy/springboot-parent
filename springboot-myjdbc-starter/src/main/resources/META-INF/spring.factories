@@ -1,3 +1,3 @@
 # PropertySource Loaders
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.webull.JdbcConfiguration
+com.mical.JdbcConfiguration

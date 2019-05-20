@@ -1,7 +1,7 @@
 package com.annotations.conditional;
 
 /**
- * @author liujian@webull.com
+ * @author liujian@mical.com
  * @date 2019-05-12 19:44
  */
 public class Person {

@@ -1,13 +1,13 @@
-package com.webull;
+package com.mical;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootKafkaStarterApplication {
+public class SpringbootUseStarterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootKafkaStarterApplication.class, args);
+        SpringApplication.run(SpringbootUseStarterApplication.class, args);
     }
 
 }

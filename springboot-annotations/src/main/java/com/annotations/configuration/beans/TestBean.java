@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author liujian@webull.com
+ * @author liujian@mical.com
  * @date 2019-05-11 23:40
  */
 @Slf4j

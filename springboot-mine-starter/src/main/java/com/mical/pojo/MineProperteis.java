@@ -1,10 +1,9 @@
-package com.webull.pojo;
+package com.mical.pojo;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
 
 /**
- * @author liujian@webull.com
+ * @author liujian@mical.com
  * @date 2019-05-11 00:24
  */
 

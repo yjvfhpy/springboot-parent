@@ -1,7 +1,7 @@
-package com.webull.config;
+package com.mical.config;
 
-import com.webull.pojo.MineProperteis;
-import com.webull.service.MineService;
+import com.mical.pojo.MineProperteis;
+import com.mical.service.MineService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -10,10 +10,8 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import javax.sound.midi.Soundbank;
-
 /**
- * @author liujian@webull.com
+ * @author liujian@mical.com
  * @date 2019-05-11 00:32
  *
  * @Configuration：标识此类为一个spring配置类

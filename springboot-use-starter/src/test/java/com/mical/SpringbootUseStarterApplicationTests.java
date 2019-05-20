@@ -1,4 +1,4 @@
-package com.webull;
+package com.mical;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringbootMyjdbcStarterApplicationTests {
+public class SpringbootUseStarterApplicationTests {
 
     @Test
     public void contextLoads() {
